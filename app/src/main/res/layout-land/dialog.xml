@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/headl"
+        android:background="#4A98BD"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:id="@+id/textDay1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/day1"
+            android:background="@color/theme_back"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginEnd="0.5dp"
+            android:layout_marginRight="05dp"/>
+
+        <TextView
+            android:id="@+id/textDay2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/day2"
+            android:background="@color/theme_back"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/headl"
+        android:id="@+id/midl">
+
+        <NumberPicker
+            android:id="@+id/numberPicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <NumberPicker
+            android:id="@+id/numberPicker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#4A98BD"
+        android:layout_marginTop="10dp"
+        android:paddingTop="0.5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_back"
+            android:text="'Ακυρο"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_back"
+            android:text="Τέλος"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

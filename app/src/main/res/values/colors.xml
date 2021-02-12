@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>   <!-- για toolbar -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#b7c8b5</color>  <!-- για  -->
+    <color name="black">#191919</color>
+    <color name="black_gray">#1d1d1d</color>
+    <color name="white">#ffffff</color>
+    <color name="light_blue">#4AB5A7</color>
+    <color name="apptheme_color">#4ab5a7</color>
+    <color name="no_click">#d3d3d3 </color>
+    <color name="text_color">#ffffff</color>
+    <color name="text_color_test">#7ce5c8</color>
+    <color name="theme_back">#303030</color>
+    <color name="green">#00FF00</color>
+</resources>

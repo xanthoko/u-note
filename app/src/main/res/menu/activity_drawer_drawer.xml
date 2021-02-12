@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_start"
+            android:icon="@drawable/notes"
+            android:title="Σημειώσεις" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/toolbar"
+            android:title="Προφίλ" />
+        <item
+            android:id="@+id/nav_subs"
+            android:icon="@drawable/schedule2"
+            android:title="Πρόγραμμα" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar_back"
+            android:title="Ημερολόγιο" />
+    </group>
+
+
+    <item android:title="@string/edit">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_edit_pr"
+                    android:icon="@drawable/edit_prof"
+                    android:title="Στοιχείων" />
+                <item
+                    android:id="@+id/nav_edit_subs"
+                    android:icon="@drawable/edit_sub"
+                    android:title="Μαθημάτων" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

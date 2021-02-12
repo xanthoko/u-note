@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.uni.notes.InfoActivity"
+    tools:showIn="@layout/activity_info"
+    android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info1"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:id="@+id/infoHead"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoHead"
+                android:text="@string/auto"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:id="@+id/infoAutoH"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoAutoH"
+                android:text="@string/info2"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/infoAuto"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoAuto"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/notif"
+                android:id="@+id/imageInfoA"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageInfoA"
+                android:layout_marginTop="40dp"
+                android:text="@string/manual"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:id="@+id/infoManualH" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoManualH"
+                android:text="@string/info3"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/infoManual1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoManual1"
+                android:src="@drawable/man_on"
+                android:id="@+id/imageInfoM1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageInfoM1"
+                android:layout_marginTop="5dp"
+                android:text="@string/info4"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/infoManual2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoManual2"
+                android:src="@drawable/man_off"
+                android:id="@+id/imageInfoM2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageInfoM2"
+                android:src="@drawable/saves"
+                android:id="@+id/imageInfoS"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageInfoS"
+                android:layout_marginTop="50dp"
+                android:text="@string/ed"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:id="@+id/infoEditH"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoEditH"
+                android:text="@string/info5"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/infoEdit"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoEdit"
+                android:src="@drawable/edit_side"
+                android:layout_marginTop="5dp"
+                android:id="@+id/imageInfoE"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageInfoE"
+                android:layout_marginTop="50dp"
+                android:text="@string/del"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:id="@+id/infoDeleteH"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoDeleteH"
+                android:text="@string/info6"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/infoDelete"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoDelete"
+                android:src="@drawable/delete"
+                android:id="@+id/imageInfoD"/>
+
+        </RelativeLayout>
+
+</ScrollView>

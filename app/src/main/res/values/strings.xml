@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">u-note</string>
+    <string name="header1">Δημιουργία Προφίλ</string>
+    <string name="fInput">Σχολή  </string>
+    <string name="sInput">Εξάμηνο  </string>
+    <string name="tInput"><u>Μαθήματα</u></string>
+    <string name="l1Input">που χρωστάς</string>
+    <string name="l2Input">που παρακολουθείς</string>
+    <string name="button1">Επόμενο</string>
+    <string name="subjects">Μάθημα </string>
+    <string name="username">Username  </string>
+    <string name="action_exit">Έξοδος</string>
+    <string name="action_profile">Προφίλ</string>
+    <string name="action_log_off">Αρχική</string>
+
+    <string-array name="num_of_sub">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="title_activity_subs">Δήλωση Μαθημάτων</string>
+    <string name="title_activity_start_app">StartAppActivity</string>
+    <string name="home_title"><b>ΠΡΟΦΙΛ</b></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_subject">Subject</string>
+    <string name="table_row11"><b>Ημερομηνία</b></string>
+    <string name="table_row12"><b>Τύπος</b></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="sing_up">ΝΕΟ ΠΡΟΦΙΛ</string>
+    <string name="about">Σχετικά</string>
+    <string name="add">Προσθήκη ημερομηνίας</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="title_activity_dates">DatesActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="addSub">Προσθήκη</string>
+    <string name="day1"><b>1η μέρα</b></string>
+    <string name="day2"><b>2η μέρα</b></string>
+    <string name="edit_day">Ημέρες</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="start_head"><u>Μαθήματα</u></string>
+    <string name="help"><i>Για επεξεργασία, πατήσε ένα απο τα παρακάτω πεδία</i></string>
+    <string name="help_photo">Επέλεξε μία από τις παρακάτω για εικόνα προφίλ ή βγάλε μία καινούργια</string>
+    <string name="edit"><b>Επεξεργασία</b></string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="auto"><u>Αυτόματα</u></string>
+    <string name="ed"><u>Επεξεργασία</u></string>
+    <string name="manual"><u>Χειροκίνητα</u></string>
+    <string name="del"><u>Διαγραφή</u></string>
+    <string name="info1">Με το <b>u-note</b> κάθε φοιτητής μπορεί να οργανώνει σε ένα αρχείο εύκολα και γρήγορα τις σημειώσεις
+που του λείπουν.</string>
+    <string name="info2">Κάθε φορά που ο χρήστης πατάει την ειδοποίηση, η ημερομηνία της ημέρας καταγράφεται αυτόματα.</string>
+    <string name="info3">1) Όταν το <i>Αυτόματο</i> είναι τικαρισμένο, με το <i>Προσθήκη ημερομηνίας</i> καταγράφεται η ημερομηνία της τρέχουσας ημέρας.</string>
+    <string name="info4">2) Αν δεν είναι τικαρισμένο, ο χρήστης μπορεί να καταχωρήσει την ημερομηνία της επιθυμίας του και να πατήσει το
+    κουμπί <i>Αποθήκευση</i> για την αποθήκευση της ημερομηνίας.</string>
+    <string name="info5">Ο χρήστης μπορεί κάθε στιγμή να επεξεργαστεί τα στοιχεία του προφίλ και να προσθέσει,
+αφαιρέσει και να τροποποιήσει τις ημέρες ενός μαθήματος του επιλέγοντας μια από τις επιλογές
+επεξεργασίας στο πλαινό μενου.</string>
+    <string name="info6">Για την διαγραφή του προφίλ του, υπάρχει το κουμπί <i>Διαγραφή προφίλ</i> στην επιλογή
+προφίλ στο πλαινό μενού.</string>
+    <string name="about_login"><i>Το απόλυτο εργαλείο για τον φοιτητή</i></string>
+
+
+</resources>
